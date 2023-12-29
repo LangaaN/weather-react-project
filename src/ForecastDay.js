@@ -1,7 +1,8 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon.js";
+import ReactAnimatedWeather from "react-animated-weather";
 
-export default function WeatherforecastDay(props) {
+export default function ForecastDay(props) {
   function day() {
     let date = new Date(props.data.dt * 1000);
     let day = date.getDay();
